@@ -66,3 +66,19 @@ def bfs(root):
   return visited
 
 print(bfs(root))
+
+#DFS Tree
+tree = {
+    0: [1, 2],
+    1: [],
+    2: [3, 4],
+    3: [],
+    4: []
+}
+
+def dfs(cur_v):
+  print(cur_v)
+  for child in tree [cur_v]:
+    dfs[cur_v]
+
+  return
